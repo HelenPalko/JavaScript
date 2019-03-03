@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+</head>
+
+<body>
+
+  <script>
+  alert("Здравствуйте!");
+  
+   var name = prompt("Ваше имя?", "");
+   var age = prompt("Ваш возраст?", "");
+   if(age>18){
+   var isAdmin = confirm("Вы - администратор?");
+   if(isAdmin==true){
+   alert("Имя: "+name+" Возраст: "+age+" Вы администратор");
+   } 
+  }
+  else{var getAdmin = confirm("Вы хотите стать администратором?");
+   if(getAdmin==true){alert("Привет мой несовершеннолетний повелитель " +name);}}
+	
+  </script>
+
+</body>
+
+</html>
